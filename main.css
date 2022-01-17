@@ -1,0 +1,62 @@
+#mask-panel {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+
+}  
+#boxespop .window {
+  position:fixed;
+  left:0;
+  top:100px !important;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 15px;
+  text-align: center;
+}
+#boxespop #dialogpop
+{
+  /* top: 100px !important; */
+  width:40%; 
+  height:auto;
+  margin: 0 auto;
+  padding:10px;
+  background-color:#fca311;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+@media (max-width:500px)
+{
+  #boxespop #dialogpop{
+    width: 80%;
+  }
+}
+.maintextpop{
+	text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  text-decoration: none;
+}
+
+#lorempop{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 12pt;
+  text-align: left;
+}
+#popupfootpop{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16pt;
+  padding: 10px 20px;
+}
+#popupfootpop a{
+	text-decoration: none;
+}
+.agreepop:hover{
+  background-color: #D1D1D1;
+}

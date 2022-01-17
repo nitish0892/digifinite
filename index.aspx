@@ -25,8 +25,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <!-- popup css  -->
-  <link rel="stylesheet" href="main.css">
 
   <!-- =======================================================
   * Template Name: eNno - v4.6.0
@@ -37,27 +35,6 @@
 </head>
 
 <body>
-
-  <!-- popup  -->
-
-  <div class="maintextpop">
-			<div id="boxespop">
-			<div style="top: 199.5px; left: 551.5px; display: none;color: black;" id="dialogpop" class="window"> Please enter your email id here <br>
-			  <div id="lorempop">
-				<center>
-				<form action="forms/contact2.php" method="post" id="popupform" validate>
-					<br>
-				  <input type="email" placeholder="enter here..." name="email"   required style="width: 60%;outline: none;" > <br> <br>
-				  <input type="submit" id="popupsubmitbtn" value="Submit" style="background-color: dodgerblue;outline: none;border: none;color: white;padding:2% 4%;border-radius: 10px;">
-				</form>
-				<div class="col-md-12" id="response" style="font-size: larger;text-align: center;width: 100%;background-color: rgba(0,128,0,0.3);margin-top: 20px;"></div>
-			  </center>
-			  </div>
-			  <div id="popupfootpop"> <a href="#" class="close agreepop" style="color:black;opacity: 0.7;">close</a></div>
-			</div>
-			<div style="width: 1478px; font-size: 32pt; color:white; height: 602px; display: none; opacity: 0.8;" id="mask-panel"></div>
-		  </div>
-		  </div>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
@@ -74,7 +51,7 @@
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Our Clients</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
-         <!-- <-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+         <%-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -89,8 +66,8 @@
               <li><a href="#">Drop Down 2</a></li>
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
-            </ul>-->
-         <!-- <-- </li>-->
+            </ul>--%>
+         <%-- </li>--%>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
         </ul>
@@ -173,7 +150,7 @@
             <ul>
               <li><i class="bi bi-check-circle"></i> We partner with clients to create and support innovative solutions that help businesses become a lasting success in the marketplace. </li>
               <li><i class="bi bi-check-circle"></i> We are committed to providing you, our valued customer, with the best attention and service, with excellent customer support.</li>
-              <!-- <%--<li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda</li>--%> -->
+              <%--<li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda</li>--%>
             </ul>
             <p>
              As a trusted software development firm, Digifinite Solutions Pvt Ltd applies its vast industry knowledge and domain expertise to build mobile applications for leading companies in the financial services, healthcare, travel & hospitality and other industries. What distinguishes us from other software companies is our division of a larger technology providing related services such as Web Designing, Web Development, Software Development, Desktop Application Development, Mobile App Development and Corporate Training. </p>
@@ -219,9 +196,9 @@
       <div class="container">
 
         <div class="section-title">
-         <!-- <%-- <span>Services</span>--%>
+         <%-- <span>Services</span>--%>
           <h2>Services</h2>
-         <%-- <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>--%> -->
+         <%-- <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>--%>
         </div>
 
         <div class="row">
@@ -352,7 +329,7 @@
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
 
-           <!-- <%-- <div class="swiper-slide">--%> -->
+           <%-- <div class="swiper-slide">--%>
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -366,7 +343,7 @@
               </div>
             </div><!-- End testimonial item -->
 
-           <!-- <%-- <div class="swiper-slide">--%> -->
+           <%-- <div class="swiper-slide">--%>
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -379,7 +356,7 @@
               </div>
             </div><!-- End testimonial item -->
 
-            <!-- <%--<div class="swiper-slide">--%> -->
+            <%--<div class="swiper-slide">--%>
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -407,11 +384,11 @@
     <section id="cta" class="cta">
       <div class="container">
 
-     <!-- <%--   <div class="text-center">
+     <%--   <div class="text-center">
           <h3>Call To Action</h3>
           <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <a class="cta-btn" href="#">Call To Action</a>
-        </div>--%> -->
+        </div>--%>
 
       </div>
     </section><!-- End Cta Section -->
@@ -421,9 +398,9 @@
       <div class="container">
 
         <div class="section-title">
-         <!-- <%-- <span>Team</span>--%> -->
+         <%-- <span>Team</span>--%>
           <h2>Team</h2>
-         <!-- <%-- <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>--%> -->
+         <%-- <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>--%>
         </div>
 
         <div class="row">
@@ -432,11 +409,11 @@
               <img src="assets/img/team/team-1.jpg" alt="">
               <h4>Dr. Khizer Ahmed</h4>
               <span>Founder & Director</span>
-             <!-- <%-- <p>
+             <%-- <p>
                 Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
-              </p>--%> -->
+              </p>--%>
               <div class="social">
-              <!-- <%--  <a href=""><i class="bi bi-twitter"></i></a>--%> -->
+              <%--  <a href=""><i class="bi bi-twitter"></i></a>--%>
                 <a href="https://www.facebook.com/khizerahmedofficial/" target="_blank"><i class="bi bi-facebook"></i></a>
                 <a href="https://www.instagram.com/khizerahmedofficial/" target="_blank"><i class="bi bi-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/dr-khizer-ahmed-7b6985229/" target="_blank"><i class="bi bi-linkedin"></i></a>
@@ -464,23 +441,23 @@
 
 
 
-             <!-- <%--<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+             <%--<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <img src="assets/img/team/team-4.jpg" alt="">
               <h4>Umme Hani</h4>
               <span>Chief Executive Officer</span>
             
             </div>
-          </div>--%> -->
+          </div>--%>
 
-          <!-- <%--<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <%--<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <img src="assets/img/team/team-5.jpg" alt="">
               <h4>Syed Javeed</h4>
               <span>Chief Strategy Officer</span>
            
             </div>
-          </div>--%> -->
+          </div>--%>
 
           <div class="col-lg-3 col-md-5 d-flex align-items-stretch">
             <div class="member">
@@ -503,9 +480,9 @@
       <div class="container">
 
         <div class="section-title">
-         <!-- <%-- <span>Contact</span>--%> -->
+         <%-- <span>Contact</span>--%>
           <h2>Contact Us</h2>
-          <!-- <%--<p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>--%> -->
+          <%--<p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>--%>
         </div>
 
         <div class="row">
@@ -531,7 +508,7 @@ Banashankari 3rd Stage, Bengaluru, Karnataka 560085</p>
                 <p>+91 - 88610 81700 </br>  +91 - 79756 58487</p>
               </div>
 
-           <!-- <%--   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>--%> -->
+           <%--   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>--%>
             </div>
 
           </div>
@@ -582,20 +559,20 @@ Banashankari 3rd Stage, Bengaluru, Karnataka 560085</p>
         <div class="row  justify-content-center">
           <div class="col-lg-6">
             <h3>Follow Us</h3>
-           <!-- <%-- <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>--%> -->
+           <%-- <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>--%>
           </div>
         </div>
 
-       <!-- <%-- <div class="row footer-newsletter justify-content-center">
+       <%-- <div class="row footer-newsletter justify-content-center">
           <div class="col-lg-6">
             <form action="" method="post">
               <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
             </form>
           </div>
-        </div>--%> -->
+        </div>--%>
 
         <div class="social-links">
-          <!-- <%--<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>--%> -->
+          <%--<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>--%>
           <a href="https://www.facebook.com/Digifinitesolutions/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
           <a href="https://www.instagram.com/digifinitesolutions" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
           <a href="https://www.youtube.com/channel/UCfGG-3o8HyKmiY450fyltig" target="_blank" class="google-plus"><i class="bx bxl-youtube"></i></a>
@@ -616,7 +593,6 @@ Banashankari 3rd Stage, Bengaluru, Karnataka 560085</p>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <!-- <script src="assets/js/jquery-1.12.4.min.js"></script> -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
@@ -626,38 +602,6 @@ Banashankari 3rd Stage, Bengaluru, Karnataka 560085</p>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
-  <!-- popup script -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script> 
-			<script src="main.js"></script>
-      <script>
-        var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-36251023-1']);
-		_gaq.push(['_setDomainName', 'jqueryscript.net']);
-		_gaq.push(['_trackPageview']);
-
-		(function() {
-		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-
-    $("#popupsubmitbtn").click(function () {
-
-$.post($("#popupform").attr("action"),
-  $("#popupform :input").serializeArray(),
-  function (info) {
-
-    $("#response").empty();
-    $("#response").html(info);
-
-  });
-
-$("#popupform").submit(function () {
-  return false;
-});
-});
-      </script>
 
 </body>
 
